@@ -13,20 +13,23 @@
 <body>
 
 <!-- =================== NAV =================== -->
-<nav class="nav" id="nav">
-  <a href="#top" class="brand" style="font-weight:700">Elisa Gizzo LMFT</a>
-  <div class="nav-links">
+<nav class="nav" id="nav" data-screen-label="Nav">
+  <a href="#top" class="brand" data-comment-anchor="brand" style="font-weight: 700">Elisa Gizzo LMFT</a>
+  <div class="nav-links" data-comment-anchor="4a8de48439-div">
     <a href="#about" class="nav-link">About</a>
     <a href="#services" class="nav-link">Services</a>
     <a href="#process" class="nav-link active">Approach</a>
     <a href="#stories" class="nav-link">Stories</a>
   </div>
-  <a href="Book a Session.html" class="book-btn">Book a session</a>
+  <a href="book-a-session.html" class="book-btn">
+    Book a session
+    <span class="dot"></span>
+  </a>
   <button class="nav-mobile-btn" aria-label="Open menu">Menu <span>+</span></button>
 </nav>
 
 <!-- =================== HERO =================== -->
-<header class="hero" id="top">
+<header class="hero" id="top" data-screen-label="01 Hero">
   <div class="hero-bg" id="heroBg" style="background-image:url('https://images.unsplash.com/photo-1604017011826-d3b4c23f8914?auto=format&fit=crop&w=2400&q=80')"></div>
   <div class="hero-haze"></div>
   <svg class="hero-arc" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
@@ -34,25 +37,29 @@
     <path d="M780 20 C 580 320, 220 460, 80 800" stroke="rgba(255,255,255,0.35)" stroke-width="0.8" fill="none"/>
   </svg>
   <div class="page-wrap hero-content">
-    <h1 class="hero-title" style="font-size:clamp(48px, 7.5vw, 132px); line-height:0.95">A&nbsp;Path<br/>That Shapes<br/>Your Future.</h1>
+    <h1 class="hero-title" data-comment-anchor="hero-title" style="font-size:clamp(48px, 7.5vw, 132px); line-height:0.95">A&nbsp;Path<br/>That Shapes<br/>Your Future.</h1>
     <div class="hero-body">
-      <p>I'm Elisa Gizzo, a Licensed Marriage &amp; Family Therapist offering therapy and coaching for individuals and couples. Together, we'll build personal insight, healthier connection, and the steps needed for lasting change.</p>
-      <a href="Book a Session.html" class="btn btn-sage">Start your journey</a>
+      <p>I'm Elisa Gizzo, a Licensed Marriage & Family Therapist offering therapy and coaching for individuals and couples. Together, we'll build personal insight, healthier connection, and the steps needed for lasting change.</p>
+      <a href="book-a-session.html" class="btn btn-sage" data-comment-anchor="0b8bdd7c3e-a">
+        Start your journey
+        <span class="dot"></span>
+      </a>
     </div>
   </div>
 </header>
 
 <!-- =================== ABOUT =================== -->
-<section class="section page-wrap grid-texture" id="about">
+<section class="section page-wrap grid-texture" id="about" data-screen-label="04 About">
   <div class="about">
     <div class="about-photo parallax-frame">
       <img src="https://images.squarespace-cdn.com/content/v1/5e77511721cce415dbc02f40/1584912958135-0AW2SAYOR2HHMHK6FW0A/Elisa%2BGizzo%2BLMFT%2Blight-6.jpg" alt="Elisa Gizzo, LMFT" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=900&q=80'" />
       <div class="badge">LMFT · New York</div>
     </div>
-    <div class="about-text">
+    <div class="about-text" data-comment-anchor="827df5472f-div">
       <span class="eyebrow">Meet Elisa</span>
       <h2 class="h-display">Therapy should feel like a real conversation.</h2>
-      <p class="lead" style="max-width:none">I specialize in relationships — the ones you have with yourself, and those around you. My focus is helping individuals and couples find deeper clarity, balance, and connection. Sessions blend insight, humor, and levity so you feel secure, confident, and assured in the choices you make. My background in health and fitness shaped my belief that well-being is deeply connected to daily habits, mindset, and communication — a path that led me to therapy as a way to support meaningful, sustainable change.</p>
+      <p class="lead" style="max-width: none">I specialize in relationships — the ones you have with yourself, and those around you. My focus is helping individuals and couples find deeper clarity, balance, and connection. Sessions blend insight, humor, and levity so you feel secure, confident, and assured in the choices you make. My background in health and fitness shaped my belief that well-being is deeply connected to daily habits, mindset, and communication — a path that led me to therapy as a way to support meaningful, sustainable change.</p>
+
       <div class="about-meta">
         <div class="stat">
           <span class="stat-num" data-counter="10" data-counter-suffix="+">10+</span>
@@ -72,45 +79,49 @@
 </section>
 
 <!-- =================== SERVICES =================== -->
-<section class="section page-wrap grid-texture" id="services">
+<section class="section page-wrap grid-texture" id="services" data-screen-label="02 Services">
   <div class="section-head section-head-stack">
-    <span class="eyebrow">Services</span>
-    <h2 class="h-display">There are clear steps forward.</h2>
-    <p class="lead" style="max-width:none">Every path is different. These are the ways I support individuals and couples navigating relationships, anxiety, and meaningful change.</p>
+    <span class="eyebrow" data-comment-anchor="b0bc766eb1-span">Services</span>
+    <h2 class="h-display" data-comment-anchor="09a69683e5-h2">There are clear steps forward.</h2>
+    <p class="lead" style="max-width: none" data-comment-anchor="3871092a23-p">Every path is different. These are the ways I support individuals and couples navigating relationships, anxiety, and meaningful change.</p>
   </div>
 
   <div class="services-grid">
-    <a class="svc-card" href="#services" style="--bg-img:url('https://images.unsplash.com/photo-1499209974431-9dddcece7f88?auto=format&fit=crop&w=900&q=80')">
-      <div class="svc-title" style="font-weight:600">Individual<br/>Therapy</div>
+    <a class="svc-card" href="#services" style="--bg-img:url('https://images.unsplash.com/photo-1499209974431-9dddcece7f88?auto=format&fit=crop&w=900&q=80')" data-comment-anchor="5a9bc4b48e-a">
+      <div class="svc-title" style="font-weight: 600">Individual<br/>Therapy</div>
       <div class="svc-body">One-on-one sessions for emotional clarity, healing, and deeper self-understanding — at your own pace.
         <div class="svc-foot">
+          <span class="dot" data-comment-anchor="50c7f961dc-span"></span>
           <span class="more">Read more →</span>
         </div>
       </div>
     </a>
 
-    <a class="svc-card" href="#services" style="--bg-img:url('https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=900&q=80')">
-      <div class="svc-title" style="font-weight:600">Couples<br/>Therapy</div>
+    <a class="svc-card" href="#services" style="--bg-img:url('https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=900&q=80')" data-comment-anchor="e297676e32-a">
+      <div class="svc-title" style="font-weight: 600">Couples<br/>Therapy</div>
       <div class="svc-body">For partners at every stage — from dating to long-term — building healthier patterns of connection and communication.
         <div class="svc-foot">
+          <span class="dot"></span>
           <span class="more">Read more →</span>
         </div>
       </div>
     </a>
 
-    <a class="svc-card" href="#services" style="--bg-img:url('https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=900&q=80')">
-      <div class="svc-title" style="font-weight:600">Family<br/>Therapy</div>
+    <a class="svc-card" href="#services" style="--bg-img:url('https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=900&q=80')" data-comment-anchor="d2e8e9a9c8-a">
+      <div class="svc-title" style="font-weight: 600">Family<br/>Therapy</div>
       <div class="svc-body">A grounded, supportive space for families to repair, reconnect, and create more choice in how they relate.
         <div class="svc-foot">
+          <span class="dot"></span>
           <span class="more">Read more →</span>
         </div>
       </div>
     </a>
+
   </div>
 </section>
 
 <!-- =================== PHILOSOPHY =================== -->
-<section class="philosophy grid-texture" id="philosophy" style="background-color:rgb(251,248,242)">
+<section class="philosophy grid-texture" id="philosophy" data-screen-label="03 Philosophy" style="background-color: rgb(251, 248, 242)" data-comment-anchor="2d7893720c-section">
   <div class="philosophy-inner">
     <div class="label">Our Philosophy</div>
     <div class="philosophy-body">
@@ -120,14 +131,14 @@
 </section>
 
 <!-- =================== PROCESS =================== -->
-<section class="process" id="process">
+<section class="process" id="process" data-screen-label="05 Process" data-comment-anchor="010656226a-section" style="background-color: rgb(0, 255, 93)">
   <div class="process-inner">
     <div class="process-head process-head-stack">
       <h2>How we'll work together.</h2>
-      <p style="width:868px;max-width:868px">Getting started doesn't have to be complicated. The process is simple, supportive, and designed to move at a pace that feels right for you — from the first hello to the progress you'll see over time.</p>
+      <p data-comment-anchor="f2c3f8541a-p" style="width: 868px; max-width: 868px">Getting started doesn't have to be complicated. The process is simple, supportive, and designed to move at a pace that feels right for you — from the first hello to the progress you'll see over time.</p>
     </div>
 
-    <div class="process-steps">
+    <div class="process-steps" data-comment-anchor="c7a300bcc8-div">
       <div class="step">
         <span class="step-num">01</span>
         <h3>Reach Out</h3>
@@ -140,7 +151,7 @@
       </div>
       <div class="step">
         <span class="step-num">03</span>
-        <h3>Meet &amp; Reflect</h3>
+        <h3>Meet & Reflect</h3>
         <p>Ongoing one-on-one or couples sessions — online or in-person — offer a consistent space to explore, reflect, and move forward with intention.</p>
       </div>
     </div>
@@ -148,7 +159,7 @@
 </section>
 
 <!-- =================== STORY =================== -->
-<section class="section page-wrap grid-texture" id="stories">
+<section class="section page-wrap grid-texture" id="stories" data-screen-label="07 Story">
   <div class="story">
     <div class="story-photo parallax-frame">
       <img src="https://images.unsplash.com/photo-1521119989659-a83eee488004?auto=format&fit=crop&w=900&q=80" alt="" />
@@ -156,20 +167,20 @@
     <div class="story-text">
       <span class="eyebrow">Real people. Real change.</span>
       <h3>Reconnecting, after years of distance.</h3>
-      <p class="lead" style="max-width:none">After a decade together, Sam and Jordan came to therapy unsure if they still spoke the same language. Through honest conversation and a few new tools, they rediscovered what brought them together — and built something steadier than before.</p>
-      <a href="#stories" class="btn btn-sage" style="margin-top:8px">Read full story</a>
+      <p class="lead" style="max-width: none" data-comment-anchor="2226c71dd6-p">After a decade together, Sam and Jordan came to therapy unsure if they still spoke the same language. Through honest conversation and a few new tools, they rediscovered what brought them together — and built something steadier than before.</p>
+      <a href="#stories" class="btn btn-sage" style="margin-top:8px" data-comment-anchor="3cf39a54d6-a">Read full story <span class="dot"></span></a>
     </div>
   </div>
 </section>
 
 <!-- =================== QUOTE =================== -->
-<section class="quote page-wrap grid-texture">
-  <blockquote style="font-weight:600">"In the midst of winter,<br/>I found there was, within me,<br/>an invincible summer."</blockquote>
+<section class="quote page-wrap grid-texture" data-screen-label="06 Quote" data-comment-anchor="c2bf10db0b-section">
+  <blockquote data-comment-anchor="a67c7f1c84-blockquote" style="font-weight: 600">"In the midst of winter,<br/>I found there was, within me,<br/>an invincible summer."</blockquote>
   <div class="attr">— Albert Camus</div>
 </section>
 
 <!-- =================== FAQ =================== -->
-<section class="section page-wrap" id="faq">
+<section class="section page-wrap" id="faq" data-screen-label="09 FAQ">
   <div class="faq">
     <div class="faq-head">
       <span class="eyebrow" style="margin-bottom:24px">FAQ</span>
@@ -178,27 +189,27 @@
     </div>
     <div class="faq-list" id="faqList">
       <div class="faq-item open">
-        <button class="faq-q" style="font-weight:600">How do I know if therapy is right for me? <span class="ic">+</span></button>
+        <button class="faq-q" style="font-weight: 600">How do I know if therapy is right for me? <span class="ic">+</span></button>
         <div class="faq-a">Therapy isn't just for crises. It's for anyone curious about growth, clarity, or navigating life's changes with more support and self-awareness.</div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" style="font-weight:600">What can I expect from the first session? <span class="ic">+</span></button>
+        <button class="faq-q" style="font-weight: 600">What can I expect from the first session? <span class="ic">+</span></button>
         <div class="faq-a">We'll get to know each other, discuss what brings you to therapy, and explore your goals. I focus on creating a safe, comfortable space where you feel heard, supported, and empowered as we begin our work together.</div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" style="font-weight:600">Do you offer both online and in-person sessions? <span class="ic">+</span></button>
+        <button class="faq-q" style="font-weight: 600">Do you offer both online and in-person sessions? <span class="ic">+</span></button>
         <div class="faq-a">Yes — both options are available. We can find the format that feels most comfortable and sustainable for you.</div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" style="font-weight:600">How often should I come to therapy? <span class="ic">+</span></button>
+        <button class="faq-q" style="font-weight: 600">How often should I come to therapy? <span class="ic">+</span></button>
         <div class="faq-a">There's no one-size-fits-all answer. Some people come weekly, others bi-weekly. We'll decide what feels right based on your needs and pace.</div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" style="font-weight:600">Is everything I share kept private? <span class="ic">+</span></button>
+        <button class="faq-q" style="font-weight: 600">Is everything I share kept private? <span class="ic">+</span></button>
         <div class="faq-a">Yes. Sessions are completely confidential, except in very rare cases related to safety. Your privacy is always a priority.</div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" style="font-weight:600">What if I don't know what to talk about? <span class="ic">+</span></button>
+        <button class="faq-q" style="font-weight: 600">What if I don't know what to talk about? <span class="ic">+</span></button>
         <div class="faq-a">That's okay. You don't need to have it all figured out. Sometimes just showing up is the most important first step — and I'll guide you from there.</div>
       </div>
     </div>
@@ -206,13 +217,13 @@
 </section>
 
 <!-- =================== FOOTER =================== -->
-<footer class="footer">
+<footer class="footer" data-screen-label="10 Footer" style="background-color: rgb(0, 255, 93)">
   <div class="footer-inner">
-    <div class="footer-top" style="border-width:0">
-      <div>
+    <div class="footer-top" style="border-width: 0px">
+      <div data-comment-anchor="c08708f50a-div">
         <h3>Support starts with<br/>a simple step.</h3>
         <p>Whether you're starting fresh, returning for ongoing support, or simply exploring your options — I'm here to meet you where you are.</p>
-        <a href="Book a Session.html" class="btn btn-cream" style="margin-top:28px">Start your journey</a>
+        <a href="book-a-session.html" class="btn btn-cream" data-comment-anchor="c62b996bd7-form" style="margin-top:28px">Start your journey <span class="dot"></span></a>
       </div>
       <div class="footer-meta">
         <div>
@@ -222,7 +233,7 @@
             <li><a href="#services">Services</a></li>
             <li><a href="#process">Approach</a></li>
             <li><a href="#stories">Stories</a></li>
-            <li><a href="Book a Session.html">Book a session</a></li>
+            <li><a href="book-a-session.html">Book a session</a></li>
           </ul>
         </div>
         <div>
@@ -245,52 +256,72 @@
     </div>
     <div class="footer-bottom">
       <div>© 2026 Elisa Gizzo, LMFT. All rights reserved.</div>
-      <div>Elisa Gizzo, LMFT</div>
+      <div style="display:flex; align-items:center; gap:8px">
+</div>
     </div>
   </div>
 </footer>
 
+<!-- =================== EDITMODE DEFAULTS =================== -->
+<script>
+const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+  "palette": "sage",
+  "heroImage": "dreamy",
+  "headlineCase": "Title"
+}/*EDITMODE-END*/;
+window.TWEAK_DEFAULTS = TWEAK_DEFAULTS;
+</script>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="home-tweaks.jsx"></script>
 <script src="motion.js"></script>
 
 <script>
   // Nav scroll state
   const nav = document.getElementById('nav');
   const heroSection = document.querySelector('.hero');
-  function onScroll() {
+  function onScroll(){
     const scrolled = window.scrollY > 40;
     nav.classList.toggle('scrolled', scrolled);
+    // On-dark mode while over hero
     const heroBottom = heroSection.getBoundingClientRect().bottom;
     nav.classList.toggle('on-dark', heroBottom > 100 && !scrolled);
-    document.querySelectorAll('.brand').forEach(b => b.classList.toggle('on-dark', heroBottom > 100 && !scrolled));
+    document.querySelectorAll('.brand').forEach(b=>b.classList.toggle('on-dark', heroBottom > 100 && !scrolled));
   }
-  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('scroll', onScroll, {passive:true});
   onScroll();
 
   // FAQ accordion
-  document.querySelectorAll('.faq-item .faq-q').forEach(btn => {
-    btn.addEventListener('click', () => {
+  document.querySelectorAll('.faq-item .faq-q').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
       const item = btn.closest('.faq-item');
       const open = item.classList.contains('open');
-      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
-      if (!open) item.classList.add('open');
+      document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));
+      if(!open) item.classList.add('open');
     });
   });
 
   // Active nav link on scroll
-  const sections = ['about', 'services', 'process', 'stories'].map(id => document.getElementById(id)).filter(Boolean);
+  const sections = ['about','services','process','stories'].map(id=>document.getElementById(id)).filter(Boolean);
   const linkMap = Object.fromEntries(
-    [...document.querySelectorAll('.nav-link')].map(a => [a.getAttribute('href').slice(1), a])
+    [...document.querySelectorAll('.nav-link')].map(a=>[a.getAttribute('href').slice(1), a])
   );
-  function setActive() {
+  function setActive(){
     let active = null;
-    for (const s of sections) {
-      if (s.getBoundingClientRect().top < 200) active = s.id;
+    for(const s of sections){
+      const r = s.getBoundingClientRect();
+      if(r.top < 200) active = s.id;
     }
-    Object.values(linkMap).forEach(a => a.classList.remove('active'));
-    if (active && linkMap[active]) linkMap[active].classList.add('active');
+    Object.values(linkMap).forEach(a=>a.classList.remove('active'));
+    if(active && linkMap[active]) linkMap[active].classList.add('active');
   }
-  window.addEventListener('scroll', setActive, { passive: true });
+  window.addEventListener('scroll', setActive, {passive:true});
   setActive();
+
+  // (Reveal animations are handled by motion.js)
 </script>
 </body>
 </html>
